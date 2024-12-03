@@ -29,5 +29,4 @@ public class Persona {
     public String toString() {
         return "Nombre de la persona: [" + nombre + "]  y su edad: [" + edad + "]";
     }
-     
 }

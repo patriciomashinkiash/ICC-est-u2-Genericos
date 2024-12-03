@@ -4,25 +4,25 @@ public class Par<K, V> {
     private K clave;
     private V valor;
 
-    //CONTRUSCTOR PARA INICIALIZAR LA CLASE Y EL VALOR
+    //CONSTRUCTOR PARA INICIALIZAR LA CLASE Y EL VALOR
     public Par(K clave, V valor) {
         this.clave = clave;
         this.valor = valor;
     }
 
-    public void establecerClave(K clave){
+    public void establecerClave(K clave) {
         this.clave = clave;
     }
 
-    public void establecerValor(V valor){
+    public void establecerValor(V valor) {
         this.valor = valor;
     }
 
-    public K obtenerClave(){
+    public K obtenerClave() {
         return clave;
     }
     
-    public V obtenerValor(){
+    public V obtenerValor() {
         return valor;
     }
 
@@ -30,6 +30,4 @@ public class Par<K, V> {
     public String toString() {
         return "Clave: " + clave + ", Valor: " + valor;
     }
-
-    
 }
